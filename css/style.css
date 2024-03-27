@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: ;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+     color: #fff;
+    color:black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Main content styles */
+
+.welcome-text{
+    padding: 100px 0;
+}
+.welcome-text h2 {
+    padding-bottom: 20px;
+}
+
+/* Add your existing styles here */
+
+/* Slider styles */
+.slider {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+}
+
+.slide {
+    flex: 0 0 auto;
+}
+
+img {
+    width: 150%;
+    height: auto;
+}
+
+/* JavaScript will handle sliding animation */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+/* Additional CSS for slide animation (optional) */
+.slide {
+  animation: slide 8s infinite;
+}
+
+@keyframes slide {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/*footer*/
+
+footer {
+    color: white;
+   background-color:  #333;
+    padding: 50px;
+    text-align: center;
+    padding: 10px 0;
+    
+    bottom: 0;
+    width: 100%;
+}
